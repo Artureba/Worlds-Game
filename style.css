@@ -1,0 +1,158 @@
+.container-fluid{
+    background-color:#ffd33b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.collapse{
+    justify-content: space-between;
+}
+
+#btn-pesquisar{
+    padding: 3%;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.destaque{
+    text-align: center;
+    background-color: #00bfc3;
+    margin: 0;
+    padding: 10px;
+}
+
+.carousel-inner{
+    background-color:#00bfc3;
+    padding-bottom: 3%;
+}
+
+.destaque-item{
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.iframe{
+    width: 50%;
+}
+
+.texto-destaque{
+    margin-left: 10px;
+    width: 50%;
+}
+
+.carousel-control-prev{
+    width: 7%;
+}
+
+.carousel-control-next{
+    width: 7%;
+}
+
+.lancamento{
+    margin-left: 2%;
+    padding: 1%;
+}
+
+.lanca-inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3%;
+}
+
+.form-select{
+    width: 17%;
+    height: 7%;
+}
+
+.row{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.plat {
+    display: flex;
+    align-content: center;
+}
+
+.plataforma{
+    margin-left: 2%;
+    padding: 1%;
+}
+
+.col{
+    margin-bottom: 1%;
+}
+
+.plat .card {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+.card-title{
+    margin: 12px;
+}
+
+.btn{
+    margin-right: 4%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+.publi{
+    background-color: #00bfc3;
+}
+
+.publishers{
+    margin-left: 2%;
+    padding: 1%;
+}
+
+.sob{
+    margin-left: 2%;
+    padding: 1%;
+}
+
+.final{
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+
+.sobre{
+    width: 60%;
+}
+
+.icon{
+    width: 20px;
+}
+
+.rede-social{
+    margin: 2%;
+}
+
+.rodape{
+    display: flex;
+    background-color: #ffd33b;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+.texto-rodape{
+    margin-left: 3%;
+    margin-top: 2%;
+}
