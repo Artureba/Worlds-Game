@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <title>World's Games</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="/src/js/app.js"></script>
+
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <!--Barra de menu-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a href="index.html"><img id="logo" src="/src/img/logo.png" style="height: 90px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="destaques.html">Destaques</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="lancamentos.html">Lançamentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="plataformas.html">Plataformas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="publishers.html">Publishers</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button id="btn-pesquisar" class="btn btn-secondary" type="submit">Pesquisar</button>
+            </form>
+            </div>
+        </div>
+      </nav>
+
+      <!--Lançamentos-->
+      <div class="lanca-inicio">
+        <h1 id="2" class="lancamento">Lançamentos</h1>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Ordem: Popularity</option>
+            <option value="1">Um</option>
+            <option value="2">Dois</option>
+            <option value="3">Tres</option>
+          </select>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Gênero: TODOS</option>
+            <option value="1">Ação</option>
+            <option value="2">Aventura</option>
+            <option value="3">Tiros</option>
+            <option value="4">RPG</option>
+            <option value="5">Poderes</option>
+          </select>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+              <h5 class="card-title">Call of Dutty</h5>
+              <iframe src="https://www.youtube.com/embed/r72GP1PIZa0" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+            <div class="card-body">
+              <a href="#" class="card-link">Mais Detalhes...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+              <h5 class="card-title">Counter Strike GO</h5>
+              <iframe src="https://www.youtube.com/embed/tN93xXfews4" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+              <div class="card-body">
+              <a href="#" class="card-link">Mais Detalhes...</a>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+              <h5 class="card-title">Fortnite</h5>
+              <iframe src="https://www.youtube.com/embed/_4roR7V9fpE" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+              <div class="card-body">
+                <a href="#" class="card-link">Mais Detalhes...</a>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+              <h5 class="card-title">Paladins</h5>
+              <iframe src="https://www.youtube.com/embed/dEwEC2MKgeQ" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+              <div class="card-body">
+                <a href="#" class="card-link">Mais Detalhes...</a>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+              <h5 class="card-title">Realm Royale</h5>
+              <iframe src="https://www.youtube.com/embed/2k5-7jqhMOI" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+              <div class="card-body">
+                <a href="#" class="card-link">Mais Detalhes...</a>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+              <h5 class="card-title">Rocket League</h5>
+              <iframe src="https://www.youtube.com/embed/OmMF9EDbmQQ" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+              <div class="card-body">
+                <a href="#" class="card-link">Mais Detalhes...</a>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+              <h5 class="card-title">Fall Guys</h5>
+              <iframe src="https://www.youtube.com/embed/FcITAzKW3fY" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+              <div class="card-body">
+                <a href="#" class="card-link">Mais Detalhes...</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-secondary" type="button">+ Carregar mais Lançamentos</button>
+      </div>
+
+      
+      
+
+      <!--Sobre / Editorial-->
+      <div class="final">
+        <div class="sobre">
+          <h1 class="sob">Sobre</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio 
+            iste excepturi facere rerum, odio sit necessitatibus ipsam quidem sequi veniam!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio 
+            iste excepturi facere rerum, odio sit necessitatibus ipsam quidem sequi veniam!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio 
+            iste excepturi facere rerum, odio sit necessitatibus ipsam quidem sequi veniam!</p>
+        </div>
+
+        <div class="editorial">
+          <h1 class="edit">Editorial</h1>
+          <p><img class="icon" src="/src/img/icon-perfil.png"><b>Redação:</b> Arthur Henrique</p>
+          <p><img class="icon" src="/src/img/icon-perfil.png"><b>Pesquisa:</b> Arthur Henrique</p>
+          <p><img class="icon" src="/src/img/icon-perfil.png"><b>Gerente Geral:</b> Arthur Henrique</p>
+          <h4>Redes Sociais:</h4>
+          <img class="rede-social" src="/src/img/facebook.png" style="height: 37px">
+          <img class="rede-social" src="/src/img/twitter.png" style="height: 37px">
+          <img class="rede-social" src="/src/img/insta.png" style="height: 37px">
+        </div>
+      </div>
+
+      <!--Rodapé-->
+      <div class="rodape">
+        <div class="texto-rodape">
+        <p>Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC Minas</b></p>
+        </div>
+        <img class="logo-rodape" src="/src/img/logo.png" style="height: 80px">
+      </div>
+    
+</body>
+</html>

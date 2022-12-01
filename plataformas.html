@@ -12,7 +12,7 @@
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <title>World's Games</title>
     <link href="style.css" rel="stylesheet"/>
-    <script defer src="/src/js/app.js"></script>
+    <script src="/src/js/app.js"></script>
 
     <link rel="icon" href="favicon.png">
 </head>
@@ -33,73 +33,74 @@
                 <a class="nav-link" href="lancamentos.html">Lançamentos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="plataformas.html">Plataformas</a>
+                <a class="nav-link active" href="plataformas.html">Plataformas</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="publishers.html">Publishers</a>
               </li>
             </ul>
-            
-
-            <div class="d-flex" role="search">
-              <input id="txtSearch" class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-              <button id="btnSearch" class="btn btn-secondary" type="submit">Pesquisar</button>
-            </div>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button id="btn-pesquisar" class="btn btn-secondary" type="submit">Pesquisar</button>
+            </form>
             </div>
         </div>
       </nav>
 
-      <!--Jogos pesquisados-->
-      <div class="container-fluid-corpo">
-        <div id="gamesPlace" class="row gx-5 gy-5"></div>
-      </div>
 
-
-
-      <!--Cards dos jogos-->
-      <div class="container-fluid-corpo">
-        <h1><strong>Games</strong></h1>
-        <div id="tela" class="row gx-5 gy-5">
-          
-        </div>
-      </div>
-
-
-      <!--Plataformas-->
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              <h2>Plataformas</h2>
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-              <div class="container-fluid-corpo">
-                <div id="platforms" class="accordion-body">
-
-                  <div class="platforms-container"></div>
-
-              </div>
-            </div>
+      <!--Plataformas -->
+      <h1 id="3" class="plataforma">Plataformas</h1>
+      <div class="plat justify-content-center">
+        <div class="card" style="width: 25rem;">
+          <h5 class="card-title">Steam</h5>
+          <img src="/src/img/steam.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Principais jogos:</b></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">- Dota 2</li>
+            <li class="list-group-item">- Counter Strike GO</li>
+            <li class="list-group-item">- Back 4 Blood</li>
+          </ul>
+          <div class="card-body text-end">
+            <a href="#" class="card-link">Mais detalhes...</a>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              <h2>Creators</h2>
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-            <div class="container-fluid-corpo">
-              <div id="creators" class="accordion-body">
 
-                <div class="creators-container">
-        
-                </div>
-              </div>
-            </div>
+        <div class="card" style="width: 25rem;">
+          <h5 class="card-title">Riot Games</h5>
+          <img src="/src/img/riot-games.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Principais jogos:</b></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">- League of Legens</li>
+            <li class="list-group-item">- Valorant</li>
+            <li class="list-group-item">- Runeterra</li>
+          </ul>
+          <div class="card-body text-end">
+            <a href="#" class="card-link">Mais detalhes...</a>
           </div>
         </div>
+
+        <div class="card" style="width: 25rem;">
+          <h5 class="card-title">Epic Games</h5>
+          <img src="/src/img/epic.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Principais jogos:</b></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">- Dota 2</li>
+            <li class="list-group-item">- Counter Strike GO</li>
+            <li class="list-group-item">- Back 4 Blood</li>
+          </ul>
+          <div class="card-body text-end">
+            <a href="#" class="card-link">Mais detalhes...</a>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-secondary" type="button">+ Carregar mais Plataformas</button>
       </div>
 
 

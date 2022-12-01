@@ -3,11 +3,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container-fluid-corpo{
+    background-color: #00bfc3;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.container-fluid-corpo h1{
+  display: flex;
+  justify-content: center;
+}
+
 .collapse{
     justify-content: space-between;
 }
 
-#btn-pesquisar{
+#btnSearch{
     padding: 3%;
 }
 
@@ -100,6 +111,7 @@
     margin-bottom: 3%;
 }
 
+
 .card-title{
     margin: 12px;
 }
@@ -155,4 +167,33 @@
 .texto-rodape{
     margin-left: 3%;
     margin-top: 2%;
+}
+
+#tela img {
+    height: 250px;
+    width: 270px;
+}
+
+.card {
+    padding: 24px;
+    margin: 5px;
+}
+
+.col-md-4 {
+  flex: 0 0 auto;
+  width: 320px;
+}
+
+#tela {
+  margin-top: 5px;
+  justify-content: center
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+#gamesPlace {
+  margin-top: 5px;
+  justify-content: center
 }
